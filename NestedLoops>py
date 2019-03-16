@@ -1,0 +1,17 @@
+R = [5, 2, 5, 2, 2]
+L = [2, 2, 2, 2, 5]
+
+for num in R:
+    output = ''
+    for num2 in range(num):
+        output += 'X'
+    print(output)
+
+print("")
+
+for num3 in L:
+    output1 = ''
+    for num4 in range(num3):
+        output1 += 'X'
+    print(output1)
+
